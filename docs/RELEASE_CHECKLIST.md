@@ -17,9 +17,9 @@
 
 - [x] Select and add the MIT License
 - [x] Choose commit author name and GitHub noreply email
-- [ ] Initialize Git and create the first commit
-- [ ] Create the public `evenicle-2-save-editor` GitHub repository
-- [ ] Push source and configure repository description/topics
+- [x] Initialize Git and create the first commit
+- [x] Create the public `evenicle-2-save-editor` GitHub repository
+- [x] Push source and configure the repository description
 - [ ] Test an actual scan/write/save cycle against supported game releases
 - [ ] Publish the `v0.1.0` prerelease and attach the Windows build/checksum
 - [ ] Confirm public repository and download accessibility
