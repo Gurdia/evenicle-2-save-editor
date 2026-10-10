@@ -1,0 +1,40 @@
+name: Bug report
+description: Report a reproducible problem
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not attach save files or memory dumps without checking them for sensitive data.
+  - type: input
+    id: app-version
+    attributes:
+      label: Editor version
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: input
+    id: game-version
+    attributes:
+      label: Game store and version
+      placeholder: Steam, GOG, JAST, or Japanese release; include patch version
+    validations:
+      required: true
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
