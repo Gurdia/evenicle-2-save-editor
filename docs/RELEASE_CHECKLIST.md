@@ -21,8 +21,8 @@
 - [x] Create the public `evenicle-2-save-editor` GitHub repository
 - [x] Push source and configure the repository description
 - [ ] Test an actual scan/write/save cycle against supported game releases
-- [ ] Publish the `v0.1.0` prerelease and attach the Windows build/checksum
-- [ ] Confirm public repository and download accessibility
+- [x] Publish the `v0.1.0` prerelease and attach the Windows build/checksum
+- [x] Confirm public repository and download accessibility
 
 The project should remain a prerelease until an end-to-end test confirms a value can be scanned,
 changed, saved in-game, and observed again after restarting the game.
